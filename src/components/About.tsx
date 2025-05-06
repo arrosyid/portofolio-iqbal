@@ -42,7 +42,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Lifelong learner—consistently exploring new tools, technologies, and best practices</span>
+                  <span>Lifelong learner. consistently exploring new tools, technologies, and best practices</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
