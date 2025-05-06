@@ -8,25 +8,19 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-4">
             <p className="text-portfolio-slate">
-              I'm Moch. Iqbal Rosyidi, a detail-oriented Web Developer with a background in Informatics Engineering 
-              (Applied Bachelor's Degree) and Information Management (Associate of Applied Science).
+              I'm Moch. Iqbal Rosyidi, a Web Developer with a strong foundation in Informatics Engineering and Information Management.
             </p>
             
             <p className="text-portfolio-slate">
-              My experience spans across developing responsive, scalable web applications for 
-              both government and private sectors using PHP, Laravel, and CodeIgniter 3. I specialize in 
-              creating clean, efficient solutions with a focus on user experience and functionality.
+              I craft scalable, maintainable, and user-focused web applications for government institutions and private clients. My work combines technical precision with a deep understanding of practical business needs.
             </p>
             
             <p className="text-portfolio-slate">
-              I'm known for strong communication skills and team collaboration, with a rapid learning mindset
-              that allows me to adapt to new technologies and challenges. I'm consistently seeking to expand
-              my knowledge and improve my technical abilities.
+              With a background in both applied technology and software development, I'm known for my clarity in communication, reliability in collaboration, and a strong drive to solve real-world problems through clean, effective code. I take pride in writing solutions that not only work but scale, evolve, and serve users efficiently.
             </p>
             
             <p className="text-portfolio-slate">
-              When I'm not coding, I enjoy exploring new web development trends and technologies to
-              stay at the cutting edge of the industry.
+              Outside of development, I actively explore modern web trends and emerging technologies, ensuring that I stay sharp and deliver forward-thinking solutions in every project I tackle.
             </p>
           </div>
           
@@ -36,23 +30,23 @@ const About = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Passionate about creating intuitive and accessible web experiences</span>
+                  <span>Driven by a passion for building intuitive, accessible, and user-focused web applications</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Strong problem-solving skills and attention to detail</span>
+                  <span>Sharp problem-solver with a strong eye for detail and technical precision</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Dedicated to writing clean, maintainable code</span>
+                  <span>Committed to writing clean, maintainable, and scalable code that serves real-world needs</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Committed to continuous learning and improvement</span>
+                  <span>Lifelong learner—consistently exploring new tools, technologies, and best practices</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Excellent communication and teamwork skills</span>
+                  <span>Clear communicator and dependable team player who thrives in collaborative environments</span>
                 </li>
               </ul>
             </div>

@@ -42,7 +42,7 @@ const Navbar = () => {
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/95 shadow-sm backdrop-blur-sm py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto flex items-center justify-between">
         <a href="#top" className="text-xl font-bold text-portfolio-navy">
-          <span className="text-portfolio-secondary">M.</span>Iqbal <span className="text-portfolio-secondary">R</span>osyidi
+          <span className="text-portfolio-secondary">I</span>qbal <span className="text-portfolio-secondary">R</span>osyidi
         </a>
         
         {/* Desktop Menu */}
@@ -60,7 +60,7 @@ const Navbar = () => {
             ))}
             <li>
               <a 
-                href="/resume.pdf" 
+                href="https://drive.google.com/file/d/1Wro5qNRmyJW9FPO-oeagHj2n5Lh5ABY_/view?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="button-outline"
@@ -99,7 +99,7 @@ const Navbar = () => {
               ))}
               <li className="mt-4">
                 <a 
-                  href="/resume.pdf" 
+                  href="https://drive.google.com/file/d/1Wro5qNRmyJW9FPO-oeagHj2n5Lh5ABY_/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="button-outline"

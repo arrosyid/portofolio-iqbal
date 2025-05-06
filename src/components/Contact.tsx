@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, BookOpen } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -23,17 +23,6 @@ const Contact = () => {
                   <p className="text-portfolio-navy group-hover:text-portfolio-secondary transition-colors">iqbal.rosyidi.32@gmail.com</p>
                 </div>
               </a>
-              
-              <a href="tel:+6281336769116" className="flex items-center group">
-                <div className="bg-portfolio-accent bg-opacity-50 p-3 rounded-full mr-4 group-hover:bg-portfolio-secondary group-hover:text-white transition-colors">
-                  <Phone className="text-portfolio-navy group-hover:text-white transition-colors" size={20} />
-                </div>
-                <div>
-                  <p className="text-sm text-portfolio-slate">Phone</p>
-                  <p className="text-portfolio-navy group-hover:text-portfolio-secondary transition-colors">+62 813 3676 9116</p>
-                </div>
-              </a>
-              
               <div className="flex items-center">
                 <div className="bg-portfolio-accent bg-opacity-50 p-3 rounded-full mr-4">
                   <MapPin className="text-portfolio-navy" size={20} />
@@ -61,6 +50,16 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-portfolio-slate">LinkedIn</p>
                   <p className="text-portfolio-navy group-hover:text-portfolio-secondary transition-colors">linkedin.com/in/iqbal-ocid</p>
+                </div>
+              </a>
+              
+              <a href="https://medium.com/@iqbal-rosyidi" target="_blank" rel="noopener noreferrer" className="flex items-center group">
+                <div className="bg-portfolio-accent bg-opacity-50 p-3 rounded-full mr-4 group-hover:bg-portfolio-secondary group-hover:text-white transition-colors">
+                  <BookOpen className="text-portfolio-navy group-hover:text-white transition-colors" size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-portfolio-slate">Medium</p>
+                  <p className="text-portfolio-navy group-hover:text-portfolio-secondary transition-colors">medium.com/@iqbal-rosyidi</p>
                 </div>
               </a>
             </div>

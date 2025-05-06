@@ -11,13 +11,10 @@ const Hero = () => {
             Moch. Iqbal Rosyidi
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-portfolio-slate">
-            Web Developer
+            Web Developer and Back-end Developer
           </h2>
           <p className="text-portfolio-slate max-w-lg">
-            Skilled and detail-oriented Web Developer with expertise in building responsive, 
-            scalable web applications for both government and private sectors using PHP, Laravel, 
-            and CodeIgniter. Passionate about creating intuitive user experiences and 
-            committed to continuously improving technical abilities.
+            A skilled Web Developer specializing in delivering IT solutions that enhance business operations. With expertise in creating responsive and efficient websites and applications. With years of experience in PHP, Laravel 11, Codeigniter, and MySQL.
           </p>
           <div className="pt-4 flex flex-wrap gap-4">
             <a href="#contact" className="button-primary flex items-center gap-2">
@@ -33,7 +30,7 @@ const Hero = () => {
         <div className="relative h-72 md:h-auto animate-fadeIn">
           <div className="relative overflow-hidden w-72 h-72 md:w-80 md:h-80 mx-auto rounded-full border-4 border-portfolio-secondary shadow-lg">
             <img 
-              src="https://i.imgur.com/qBT9uFO.jpg" 
+              src="assets/hero.jpg" 
               alt="Moch. Iqbal Rosyidi" 
               className="w-full h-full object-cover"
             />

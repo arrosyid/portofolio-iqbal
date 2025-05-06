@@ -56,11 +56,11 @@ export default {
         // Custom portfolio colors
         portfolio: {
           primary: "#0a192f", 
-          secondary: "#5D9CB6",
+          secondary: "#388db0",
           navy: "#0a192f",
           light: "#E0F2F1",
           dark: "#112240",
-          slate: "#8892b0",
+          slate: "#000000",
           accent: "#D1F4FA"
         }
       },
