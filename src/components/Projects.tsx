@@ -12,7 +12,7 @@ const Projects = () => {
       demo: "https://event-app.iqbalrosyidi.my.id/"
     },
     {
-      title: "SIMBMD (asset management) & SIDIA (inventory management)",
+      title: "SIMBMD (Asset Management) & SIDIA (Inventory Management)",
       description: "Regional asset management system and regional inventory system for Pasuruan Regency, replacing manual tracking with an integrated web-based solution using CodeIgniter 3. Improved efficiency and accuracy by centralizing asset and inventory records.",
       technologies: ["CodeIgniter 3", "MySQL", "Bootstrap", "jQuery", "PHP"],
       image: "assets/simbmd.png",

@@ -94,18 +94,6 @@ const Education = () => {
                   </li>
                 ))}
               </ul>
-              
-              <div className="mt-6 pt-4 border-t border-gray-200">
-                <h4 className="text-portfolio-navy font-medium mb-2">Languages</h4>
-                <div className="flex flex-wrap gap-2">
-                  <div className="bg-portfolio-accent px-3 py-1 rounded-full text-sm">
-                    Indonesia: Native
-                  </div>
-                  <div className="bg-portfolio-accent px-3 py-1 rounded-full text-sm">
-                    English: Professional Working
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

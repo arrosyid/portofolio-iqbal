@@ -6,7 +6,7 @@ const Skills = () => {
     {
       category: "Languages & Frameworks",
       icon: <Code className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Node.JS", "Express.js", "Laravel", "CodeIgniter 3", "HTML", "CSS", "PHP", "JavaScript", "Bootstrap", "jQuery"]
+      skills: ["Node.JS", "Express.js", "Laravel", "CodeIgniter 3", "Bootstrap"]
     },
     {
       category: "Database",
@@ -16,12 +16,12 @@ const Skills = () => {
     {
       category: "Tools & Technologies",
       icon: <TerminalSquare className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Eloquent ORM", "Prisma ORM", "Blade", "Coolify", "Git", "GitHub", "VS Code", "XAMPP", "WSL", "NPM", "PNPM"]
+      skills: ["Eloquent ORM", "Prisma ORM", "Blade", "Coolify", "GitHub",]
     },
     {
       category: "Concepts",
       icon: <BookOpen className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["MVC", "RESTful API", "Responsive Design", "Caching Strategies", "Algorithm Implementation (SAW, AHP)", "Debugging and Testing"]
+      skills: ["MVC", "RESTful API", "Responsive Design", "Microservice"]
     }
   ];
 

@@ -8,8 +8,8 @@ const Hero = () => {
   const textToType = "Hi, my name is";
   const typingSpeed = 100; // milliseconds
   const deletingSpeed = 70; // milliseconds
-  const pauseBeforeDelete = 1000; // milliseconds (pause after full text typed)
-  const pauseBeforeRetype = 3000; // milliseconds (pause after full text deleted - user request)
+  const pauseBeforeDelete = 4000; // milliseconds (pause after full text typed)
+  const pauseBeforeRetype = 1000; // milliseconds (pause after full text deleted - user request)
 
   const charIndexRef = useRef(0); // Current character index in textToType
 

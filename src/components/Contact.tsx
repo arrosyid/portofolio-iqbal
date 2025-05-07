@@ -65,14 +65,15 @@ const Contact = () => {
             </div>
           </div>
           
-          <form className="bg-white p-6 rounded-lg shadow-subtle">
+          <form className="bg-white p-6 rounded-lg shadow-subtle" action="https://formspree.io/f/xjkwrkvz" method="POST">
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-portfolio-navy mb-1">
                 Name
               </label>
               <input 
                 type="text" 
-                id="name" 
+                id="name"
+                name="name" 
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-portfolio-secondary focus:border-portfolio-secondary transition"
                 required
               />
@@ -84,7 +85,8 @@ const Contact = () => {
               </label>
               <input 
                 type="email" 
-                id="email" 
+                id="email"
+                name="email" 
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-portfolio-secondary focus:border-portfolio-secondary transition"
                 required
               />
@@ -96,7 +98,8 @@ const Contact = () => {
               </label>
               <input 
                 type="text" 
-                id="subject" 
+                id="subject"
+                name="subject" 
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-portfolio-secondary focus:border-portfolio-secondary transition"
               />
             </div>
@@ -106,7 +109,8 @@ const Contact = () => {
                 Message
               </label>
               <textarea 
-                id="message" 
+                id="message"
+                name="message" 
                 rows={5}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-portfolio-secondary focus:border-portfolio-secondary transition"
                 required
