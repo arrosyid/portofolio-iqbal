@@ -4,26 +4,34 @@ import { Github, ExternalLink, Code } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "SIMBMD",
-      description: "Regional asset management system for Pasuruan Regency, replacing manual tracking with an integrated web-based solution using CodeIgniter 3. Improved efficiency and accuracy by centralizing asset records.",
+      title: "Event Management Backend API",
+      description: "This project is the backend system for an Event Management Application built with Node.js, Express.js, and Prisma. It provides a RESTful API for managing events, ticket types, user authentication, orders, payments (simulated), e-ticket generation, check-in validation, and more.",
+      technologies: ["Express.js, Prisma ORM, Redis, MySQL"],
+      image: "assets/event-app.png",
+      github: "https://github.com/arrosyid/event-app",
+      demo: "https://event-app.iqbalrosyidi.my.id/"
+    },
+    {
+      title: "SIMBMD (asset management) & SIDIA (inventory management)",
+      description: "Regional asset management system and regional inventory system for Pasuruan Regency, replacing manual tracking with an integrated web-based solution using CodeIgniter 3. Improved efficiency and accuracy by centralizing asset and inventory records.",
       technologies: ["CodeIgniter 3", "MySQL", "Bootstrap", "jQuery", "PHP"],
-      image: "https://i.imgur.com/jI8eXKt.jpg",
+      image: "assets/simbmd.png",
       github: "#",
       demo: "#"
     },
     {
-      title: "SIDIA",
-      description: "Inventory information system (Sistem Informasi Persediaan) for structured and transparent management of institutional supplies, improving tracking and resource allocation.",
-      technologies: ["CodeIgniter 3", "MySQL", "JavaScript", "Bootstrap", "PHP"],
-      image: "https://i.imgur.com/O4sFztu.jpg",
-      github: "#",
-      demo: "#"
+      title: "Responsive Company Profile Website",
+      description: "A fully responsive company profile website using HTML, CSS, JavaScript, Bootstrap, and jQuery, delivered on an aggressive timeline with an initial 3-day build and 4 days dedicated to revisions. The site features smooth fade-in/fade-out animations and a design that adapts seamlessly to laptops, smartphones, and tablets.",
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
+      image: "assets/company-profile-crop.png",
+      github: "https://github.com/arrosyid/sumber-mas-jaya",
+      demo: "https://arrosyid.github.io/sumber-mas-jaya/"
     },
     {
       title: "SaktiPOS",
       description: "Lightweight POS system that allows flexible transactions based on weight and volume. Used PHP and CodeIgniter for efficient stock handling and inventory management.",
       technologies: ["PHP", "CodeIgniter", "MySQL", "Bootstrap", "jQuery"],
-      image: "https://i.imgur.com/M2GJPly.jpg",
+      image: "assets/saktipos.png",
       github: "#",
       demo: "#"
     },
@@ -31,15 +39,15 @@ const Projects = () => {
       title: "Plant Recommendation App",
       description: "Laravel-based system that suggests optimal plants based on soil type and custom user criteria using the SAW algorithm. Helps users make informed planting decisions.",
       technologies: ["Laravel 10", "MySQL", "Bootstrap", "SAW Algorithm", "PHP"],
-      image: "https://i.imgur.com/jI8eXKt.jpg",
-      github: "#",
+      image: "assets/plant-recomendation.png",
+      github: "https://github.com/arrosyid/spk-tanaman",
       demo: "#"
     },
     {
       title: "Employee Assessment System",
       description: "Structured web-based evaluation platform using AHP and SAW algorithms to improve performance review processes and provide objective employee assessments.",
       technologies: ["Laravel", "AHP Algorithm", "SAW Algorithm", "MySQL", "Bootstrap"],
-      image: "https://i.imgur.com/O4sFztu.jpg",
+      image: "assets/employment-saw.png",
       github: "#",
       demo: "#"
     }
@@ -76,22 +84,26 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4 mt-auto">
-                  <a 
-                    href={project.github} 
-                    className="text-portfolio-navy hover:text-portfolio-secondary transition-colors flex items-center gap-1"
-                    aria-label="GitHub Repository"
-                  >
-                    <Github size={18} />
-                    <span>Code</span>
-                  </a>
-                  <a 
-                    href={project.demo} 
-                    className="text-portfolio-navy hover:text-portfolio-secondary transition-colors flex items-center gap-1"
-                    aria-label="Live Demo"
-                  >
-                    <ExternalLink size={18} />
-                    <span>Demo</span>
-                  </a>
+                  {project.github && project.github !== "#" && (
+                    <a 
+                      href={project.github} 
+                      className="text-portfolio-navy hover:text-portfolio-secondary transition-colors flex items-center gap-1"
+                      aria-label="GitHub Repository"
+                    >
+                      <Github size={18} />
+                      <span>Code</span>
+                    </a>
+                  )}
+                  {project.demo && project.demo !== "#" && (
+                    <a 
+                      href={project.demo} 
+                      className="text-portfolio-navy hover:text-portfolio-secondary transition-colors flex items-center gap-1"
+                      aria-label="Live Demo"
+                    >
+                      <ExternalLink size={18} />
+                      <span>Demo</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
