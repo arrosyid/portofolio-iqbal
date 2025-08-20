@@ -4,6 +4,30 @@ import { Calendar, Building, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Security Assurance",
+      company: "PT PLN Indonesia Comnets Plus",
+      location: "Jakarta, Indonesia",
+      period: "July 2025 - Present",
+      description: [
+        "Conducted application verification based on PLN's internal standards aligned with OWASP ASVS prior to production deployment",
+        "Prepared and validated security checklists as mandatory documentation required before release",
+        "Collaborated with Development teams and DevOps teams to review compliance evidence and ensure proper security implementation",
+        "Supported the organization's secure SDLC by ensuring security controls were applied during the pre-production phase",
+      ]
+    },
+    {
+      title: "Front-end Developer",
+      company: "Horizon Agritech",
+      location: "Yogyakarta, Indonesia",
+      period: "September 2024 - Present",
+      description: [
+        "Developed Front end web application using Next.js (TypeScript)",
+        "Managing and mentoring one additional developer",
+        "Delivered landing page and login with animations based on UI/UX",
+        "Performed code reviews to maintain code quality, readability, and consistency across the project",
+      ]
+    },
+    {
       title: "Full Time Web Developer",
       company: "CV. Mascitra Teknologi Informasi",
       location: "Jember, Indonesia",
