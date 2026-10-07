@@ -11,12 +11,12 @@ const Skills = () => {
     {
       category: "Cybersecurity Standards & Best Practices",
       icon: <Database className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["OWASP ASVS", "OWASP Top 10", "Secure Coding Practices", "Vulnerability Assessment & Management", "Security Architecture Review", "Technical Compliance Checklists"]
+      skills: ["OWASP ASVS", "OWASP Top 10", "Secure Coding Practices", "Vulnerability Assessment", "Security Architecture Review", "Technical Compliance Checklists"]
     },
     {
       category: "Tools & Technologies",
       icon: <TerminalSquare className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Tenable Nessus", "Postman", "Swagger", "BurpSuite", "Harbor", "Fortify SAST,DAST, SCA"]
+      skills: ["Tenable Nessus", "Postman", "Swagger", "BurpSuite", "Harbor", "Fortify Software Security Center"]
     },
     {
       category: "Concepts",
