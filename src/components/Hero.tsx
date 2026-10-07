@@ -88,10 +88,10 @@ const Hero = () => {
               Moch. Iqbal Rosyidi
             </h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-portfolio-slate">
-              Web Developer and Back-end Developer
+              Application Security Engineer 
             </h2>
             <p className="text-portfolio-slate max-w-lg">
-              A skilled Web Developer specializing in delivering IT solutions that enhance business operations. With expertise in creating responsive and efficient websites and applications. With years of experience in PHP, Laravel 11, Codeigniter, and MySQL.
+              Application Security Engineer with a background in Web Development, currently focused on Application Security, Secure Coding, and GRC. Perform pre-production application security audits based on the OWASP ASVS framework, review security architecture and controls, develop technical compliance checklists, and support Secure SDLC through Shift-Left Security and Left of Boom approaches. Work closely with Development teams to validate security controls and compliance evidence. With background in Web Development provides a practical understanding of application development and helps bridge the gap between security requirements and their implementation. 
             </p>
             <div className="pt-4 flex flex-wrap gap-4">
               <a href="#contact" className="button-primary flex items-center gap-2">

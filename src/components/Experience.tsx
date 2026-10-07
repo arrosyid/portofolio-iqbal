@@ -4,27 +4,16 @@ import { Calendar, Building, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Security Assurance",
+      title: "Cyber Security Assurance",
       company: "PT PLN Indonesia Comnets Plus",
       location: "Jakarta, Indonesia",
       period: "July 2025 - Present",
       description: [
-        "Conducted application verification based on PLN's internal standards aligned with OWASP ASVS prior to production deployment",
-        "Prepared and validated security checklists as mandatory documentation required before release",
-        "Collaborated with Development teams and DevOps teams to review compliance evidence and ensure proper security implementation",
-        "Supported the organization's secure SDLC by ensuring security controls were applied during the pre-production phase",
-      ]
-    },
-    {
-      title: "Front-end Developer",
-      company: "Horizon Agritech",
-      location: "Yogyakarta, Indonesia",
-      period: "September 2024 - Present",
-      description: [
-        "Developed Front end web application using Next.js (TypeScript)",
-        "Managing and mentoring one additional developer",
-        "Delivered landing page and login with animations based on UI/UX",
-        "Performed code reviews to maintain code quality, readability, and consistency across the project",
+        "Performed pre-production application security audits within the PLN environment based on the OWASP ASVS framework, and documented technical requirement checklists.",
+        "Audited the design and implementation of application security architectures to ensure compliance to secure coding standards.",
+        "Supported the organization's Secure SDLC by proactively implementing Shift-Left Security and Left of Boom strategies to identify early-stage risks and mitigate attack impacts.",
+        "Collaborated daily with Development teams to review compliance evidence and guide the proper implementation of security controls throughout the development lifecycle.",
+        "Conducted vulnerability assessments using Tenable Nessus, and compiled technical reports.",
       ]
     },
     {
@@ -33,11 +22,11 @@ const Experience = () => {
       location: "Jember, Indonesia",
       period: "June 2024 - September 2024",
       description: [
-        "Developed SIMBMD (regional asset management) and SIDIA (regional inventory system) for Pasuruan Regency",
-        "Developed saktipos.com, an online cashier application",
-        "Collaborated with clients to gather requirements, resolve issues, and ensure project alignment",
-        "Delivered clean, responsive interfaces using CodeIgniter 3, Bootstrap, and jQuery",
-        "Met tight deadlines while maintaining code quality and documentation standards"
+        "Developed SIMBMD (regional asset management) and SIDIA (regional inventory system) for Pasuruan Regency.",
+        "Developed saktipos.com, an online cashier application.",
+        "Collaborated with clients to gather requirements, resolve issues, and ensure project alignment.",
+        "Delivered clean, responsive interfaces using CodeIgniter 3, Bootstrap, and jQuery.",
+        "Met tight deadlines while maintaining code quality and documentation standards."
       ]
     },
     {
@@ -46,10 +35,10 @@ const Experience = () => {
       location: "Jember, Indonesia",
       period: "February 2024 - June 2024",
       description: [
-        "Analyzed and designed E-Certificate application, including fixing unresolved technical issues",
-        "Developed SIMBMD (regional asset management) and SIDIA (regional inventory system) for Pasuruan Regency",
-        "Applied design patterns and clean code principles to enhance maintainability and performance",
-        "Used Git and GitHub for version control and team collaboration during feature development"
+        "Analyzed and designed E-Certificate application, including fixing unresolved technical issues.",
+        "Developed SIMBMD (regional asset management) and SIDIA (regional inventory system) for Pasuruan Regency.",
+        "Applied design patterns and clean code principles to enhance maintainability and performance.",
+        "Used Git and GitHub for version control and team collaboration during feature development."
       ]
     },
     {
@@ -58,10 +47,10 @@ const Experience = () => {
       location: "Jember, Indonesia (Remote)",
       period: "February 2021 - April 2021",
       description: [
-        "Developed a CRUD-based web application using CodeIgniter 3 and MySQL",
-        "Designed and optimized database systems for performance and reliability",
-        "Built the front-end with AdminLTE and Bootstrap 4 for a responsive UI",
-        "Managed deployment and version control using GitHub"
+        "Developed a CRUD-based web application using CodeIgniter 3 and MySQL.",
+        "Designed and optimized database systems for performance and reliability.",
+        "Built the front-end with AdminLTE and Bootstrap 4 for a responsive UI.",
+        "Managed deployment and version control using GitHub."
       ]
     },
     {
@@ -70,10 +59,10 @@ const Experience = () => {
       location: "Malang, Indonesia",
       period: "September 2020 - December 2020",
       description: [
-        "Developed a CRUD web application using CodeIgniter 3 and MySQL",
-        "Designed, configured, and optimized the database for performance and security",
-        "Collaborated with front-end developers to ensure smooth UI–backend integration",
-        "Maintained data integrity and system reliability throughout development"
+        "Developed a CRUD web application using CodeIgniter 3 and MySQL.",
+        "Designed, configured, and optimized the database for performance and security.",
+        "Collaborated with front-end developers to ensure smooth UI-backend integration.",
+        "Maintained data integrity and system reliability throughout development."
       ]
     }
   ];

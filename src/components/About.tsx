@@ -8,19 +8,19 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-4">
             <p className="text-portfolio-slate">
-              I'm Moch. Iqbal Rosyidi, a Web Developer with a strong foundation in Informatics Engineering and Information Management.
+              I'm a Cybersecurity Assurance with a background in Web Development, currently focused on Application Security, Secure Coding, and Governance, Risk, and Compliance (GRC).
             </p>
             
             <p className="text-portfolio-slate">
-              I craft scalable, maintainable, and user-focused web applications for government institutions and private clients. My work combines technical precision with a deep understanding of practical business needs.
+              My current role involves performing pre-production application security audits within the PLN environment, using the OWASP Application Security Verification Standard (ASVS) as a primary reference. I review application security requirements, assess the design and implementation of security controls, and document technical compliance checklists to help ensure applications meet secure coding and security standards before deployment.
             </p>
             
             <p className="text-portfolio-slate">
-              With a background in both applied technology and software development, I'm known for my clarity in communication, reliability in collaboration, and a strong drive to solve real-world problems through clean, effective code. I take pride in writing solutions that not only work but scale, evolve, and serve users efficiently.
+              I also contribute to the organization's Secure SDLC by applying Shift-Left Security and Left of Boom approaches to identify and address security risks as early as possible in the development lifecycle. This includes working closely with Development teams to review compliance evidence, validate security control implementations, and provide guidance on addressing identified gaps. In addition, I conduct vulnerability assessments using Tenable Nessus and prepare technical vulnerability reports to support remediation and risk management activities.
             </p>
             
             <p className="text-portfolio-slate">
-              Outside of development, I actively explore modern web trends and emerging technologies, ensuring that I stay sharp and deliver forward-thinking solutions in every project I tackle.
+              My previous experience as a Web Developer has given me a strong foundation in application development, including PHP, Laravel, CodeIgniter, JavaScript, TypeScript, Next.js, and MySQL. This development background helps me bridge the gap between security requirements and practical implementation, particularly when working with development teams.
             </p>
           </div>
           
@@ -30,15 +30,11 @@ const About = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Driven by a passion for building intuitive, accessible, and user-focused web applications</span>
+                  <span>Driven by a strong commitment to building secure, resilient, and compliant applications</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Sharp problem-solver with a strong eye for detail and technical precision</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Committed to writing clean, maintainable, and scalable code that serves real-world needs</span>
+                  <span>Detail-oriented in reviewing security requirements, controls, and implementation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
@@ -46,7 +42,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-portfolio-secondary mr-2 font-bold">▹</span>
-                  <span>Clear communicator and dependable team player who thrives in collaborative environments</span>
+                  <span>Collaborative and open to learning from Development, Security, and cross-functional teams</span>
                 </li>
               </ul>
             </div>

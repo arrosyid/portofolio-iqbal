@@ -60,7 +60,7 @@ const Navbar = () => {
             ))}
             <li>
               <a 
-                href="https://drive.google.com/file/d/1Wro5qNRmyJW9FPO-oeagHj2n5Lh5ABY_/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1Lps58-rVm6holl_4AZKJ9pkLEWlg8-pW/view?usp=drive_link" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="button-outline"

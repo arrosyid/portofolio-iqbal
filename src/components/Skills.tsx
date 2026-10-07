@@ -4,24 +4,24 @@ import { Code, Database, TerminalSquare, BookOpen } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Languages & Frameworks",
+      category: "Web Development",
       icon: <Code className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Node.JS", "Express.js", "Laravel", "CodeIgniter 3", "Bootstrap"]
+      skills: ["Express.js", "Laravel", "CodeIgniter 3", "Bootstrap", "MySQL", "Redis", "PostgreSQL", "Responsive Design", "Microservice", "Clean Code Principles", "Design Patterns", "Version Control", "Docker"]
     },
     {
-      category: "Database",
+      category: "Cybersecurity Standards & Best Practices",
       icon: <Database className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["MySQL", "Redis", "PostgreSQL"]
+      skills: ["OWASP ASVS", "OWASP Top 10", "Secure Coding Practices", "Vulnerability Assessment & Management", "Security Architecture Review", "Technical Compliance Checklists"]
     },
     {
       category: "Tools & Technologies",
       icon: <TerminalSquare className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Eloquent ORM", "Prisma ORM", "Blade", "Coolify", "GitHub",]
+      skills: ["Tenable Nessus", "OWASP ZAP", "Postman", "Swagger", "BurpSuite", "Harbor", "Fortify SAST,DAST, SCA"]
     },
     {
       category: "Concepts",
       icon: <BookOpen className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["MVC", "RESTful API", "Responsive Design", "Microservice"]
+      skills: ["Secure SDLC", "Shift-Left Security", "Left of Boom", "Technical Compliance Checklists"]
     }
   ];
 
