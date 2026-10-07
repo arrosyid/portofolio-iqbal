@@ -16,7 +16,7 @@ const Skills = () => {
     {
       category: "Tools & Technologies",
       icon: <TerminalSquare className="h-6 w-6 text-portfolio-secondary" />,
-      skills: ["Tenable Nessus", "OWASP ZAP", "Postman", "Swagger", "BurpSuite", "Harbor", "Fortify SAST,DAST, SCA"]
+      skills: ["Tenable Nessus", "Postman", "Swagger", "BurpSuite", "Harbor", "Fortify SAST,DAST, SCA"]
     },
     {
       category: "Concepts",
